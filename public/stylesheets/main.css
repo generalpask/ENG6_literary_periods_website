@@ -4,6 +4,7 @@
     border: none;
 }
 body{
+  background-color: #7c643e;
 }
 
 @font-face {
@@ -36,7 +37,7 @@ body{
     height: 10vh;
     background-color: grey;
     position: relative;
-
+    border: solid 3px;
 }
 
 .title {
@@ -47,28 +48,32 @@ body{
 .link-div {
   width: 100%;
   height: 10vh;
+  margin-top: 40%;
+  border: solid 3px;
   background-color: grey;
+  border-bottom: none;
+  opacity: 0.9;
+  background-image: radial-gradient(#2c2c2d,#000000);
 }
 .link {
-  padding: 10px;
   margin: 15px;
   border: solid 2px;
-  color: black;
+  color: #cec2b1;
 }
 
 .content {
     width: 100%;
-    height: 80vh;
-    background-image: linear-gradient( #94570a,#5e390a);
+    height: 100vh;
     position: relative;
-    margin-top: 50%;
     padding-top: 20px;
     padding-left: 20px;
+    background-image: linear-gradient(#28272d,#3a3840);
+    border: solid 3px;
 }
 
 .home-info{
   width: 90%;
-  height: 900%;
+  height: 90vh;
   border: solid 3px;
   margin: auto;
 }
