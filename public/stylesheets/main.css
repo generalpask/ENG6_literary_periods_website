@@ -23,7 +23,6 @@ body{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    
 }
 
 .main {
@@ -35,13 +34,26 @@ body{
 .header {
     width: 100%;
     height: 10vh;
-    background-color: red;
+    background-color: grey;
     position: relative;
+
 }
 
 .title {
     font-family: IBM Plex Sans Regular;
     margin-left: 5vw;
+}
+
+.link-div {
+  width: 100%;
+  height: 10vh;
+  background-color: grey;
+}
+.link {
+  padding: 10px;
+  margin: 15px;
+  border: solid 2px;
+  color: black;
 }
 
 .content {
@@ -53,14 +65,10 @@ body{
     padding-top: 20px;
     padding-left: 20px;
 }
-.link-div {
-  width: 100%;
-  height: 10vh;
-  background-color: grey;
-}
-.link {
-  padding: 10px;
-  margin: 15px;
-  border: solid 2px;
-  color: black;
+
+.home-info{
+  width: 90%;
+  height: 900%;
+  border: solid 3px;
+  margin: auto;
 }
