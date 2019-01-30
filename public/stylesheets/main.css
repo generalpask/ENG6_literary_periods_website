@@ -4,9 +4,10 @@
     border: none;
 }
 body{
-  background-image: url(home.jpg);
+  background-image: url(../img/souls_of_acheron.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 
 @font-face {
