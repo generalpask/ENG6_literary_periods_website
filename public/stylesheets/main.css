@@ -79,8 +79,9 @@ body{
   margin: auto;
 }
 .home-img{
-  width: 80%;
-  height: 30vh;
+  width: 30px;
+  height: 30px;
+  border: solid 3px;
 }
 
 .content, .header, .link-div {
