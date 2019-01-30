@@ -70,7 +70,6 @@ body{
     height: 100vh;
     position: relative;
     padding-top: 20px;
-    padding-left: 20px;
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
     border: solid 3px;
 }
@@ -80,4 +79,8 @@ body{
   height: 90vh;
   border: solid 3px;
   margin: auto;
+}
+
+.content, .header, .link-div {
+    box-sizing:border-box;
 }
