@@ -77,10 +77,12 @@ body{
   height: 90vh;
   border: solid 3px;
   margin: auto;
+  text-align: center;
+
 }
 .home-img{
-  width: 80%;
-  height: 200px;
+  width: 68%;
+  height: 375px;
   border: solid 2px;
   display: block;
   margin-top: 10%;
