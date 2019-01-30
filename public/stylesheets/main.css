@@ -59,9 +59,7 @@ body{
   background-image: radial-gradient(#5e5e5e, #454545);
 }
 .link {
-  margin: 15px;
-  border: solid 2px;
-  border-color: #a74800;
+  margin: 30px;
   color: #cec2b1;
 }
 
