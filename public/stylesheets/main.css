@@ -78,6 +78,10 @@ body{
   border: solid 3px;
   margin: auto;
 }
+.home-img{
+  width: 80%;
+  height: 30vh;
+}
 
 .content, .header, .link-div {
     box-sizing:border-box;
