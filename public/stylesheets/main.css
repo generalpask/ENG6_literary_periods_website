@@ -58,9 +58,16 @@ body{
   opacity: 0.9;
   background-image: radial-gradient(#5e5e5e, #454545);
 }
-.link {
+.link-div a{
   margin-left:60px;
   color: #cec2b1;
+  font-size: 45px;
+  font-family: IBM Plex Sans Bold;
+}
+.link-div a:hover{
+  background-color: #272727;
+  color: #e7dac7;
+
 }
 
 .content {
