@@ -4,7 +4,6 @@ echo.
 set /p commit="Name the commit: "
 echo.
 git add .
-echo.
 echo [92mGIT:[0m Added changes to index
 echo.
 git commit -m "%commit%"
@@ -14,4 +13,4 @@ echo.
 git push origin master
 echo.
 echo [92mGIT:[0m Pushed changes to branch [96mmaster[0m
-echo.
+

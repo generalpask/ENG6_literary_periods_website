@@ -47,6 +47,9 @@ body{
     font-family: IBM Plex Sans Regular;
     margin-left: 5vw;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: IBM Plex Sans Regular;
+}
 
 .link-div {
   width: 100%;
@@ -99,4 +102,19 @@ body{
 
 .content, .header, .link-div {
     box-sizing:border-box;
+}
+
+.article-content {
+    width: 45%;
+    background-image: radial-gradient(#5e5e5e, #454545);
+    position: relative;
+    border: solid 3px;
+    float: left;
+    margin-left: 5vh;
+    margin-top: 15vh;
+    padding: 2vh 2vw 2vh 2vw;
+}
+.article-img {
+    margin-left: 10vh;
+    margin-top: 5vh;
 }
