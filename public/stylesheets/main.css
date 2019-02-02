@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .link-div {
   width: 100%;
-  height: 15vh;
+  height: 10vh;
   margin-top: 40%;
   border: solid 3px;
   background-color: grey;
@@ -62,16 +62,24 @@ h1, h2, h3, h4, h5, h6 {
   background-image: radial-gradient(#5e5e5e, #454545);
 }
 .link-div a{
-  margin-left:60px;
+  margin-left:10px;
+  margin-right:10px;
+
   color: #cec2b1;
-  font-size: 45px;
+  display: block;
+  height: 100%;
+  float: left;
+  font-size: 34px;
   font-family: IBM Plex Sans Bold;
 }
 .link-div a:hover{
   background-color: #272727;
   color: #e7dac7;
-
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: #6b6b6b;
 }
+
 
 .content {
     width: 100%;
@@ -88,14 +96,19 @@ h1, h2, h3, h4, h5, h6 {
   border: solid 3px;
   margin: auto;
   text-align: center;
-
 }
+.home-info p{
+  width: 85%;
+  margin: auto;
+  margin-top: 2%;
+}
+
 .home-img{
   width: 68%;
   height: 375px;
   border: solid 2px;
   display: block;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
