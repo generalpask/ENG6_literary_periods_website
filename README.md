@@ -6,3 +6,5 @@ Use `push.bat` when uploading changes
 
 HTML in /views<br />
 Sources in /public
+
+Pages: https://generalpask.github.io/ENG6_literary_periods_website/
