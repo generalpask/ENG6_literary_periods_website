@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: IBM Plex Sans Regular;
 }
 .body-1{
     background-image: url(../img/souls_of_acheron.jpg);
@@ -50,17 +51,9 @@
 }
 
 .title {
-    font-family: IBM Plex Sans Regular;
     margin-left: 5vw;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: IBM Plex Sans Regular;
-    border-bottom: solid 2px;
-    text-align: center;
-}
-p{
-  text-align: center;
-}
+
 .link-div {
   width: 100%;
   height: 10vh;
@@ -86,6 +79,7 @@ p{
   border-left: 2px solid;
   border-right: 2px solid;
   border-color: #6b6b6b;
+  box-sizing: border-box;
 }
 
 
