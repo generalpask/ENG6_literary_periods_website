@@ -134,17 +134,17 @@
     margin-top: 5vh;
 }
 .article-img-S {
-    width: 285px;
-    height: 274px;
+    width: 320px;
+    height: 294px;
     margin-left: 10vh;
-    margin-top: 3vh;
+    margin-top: 10vh;
     border: solid 5px;
 }
 .article-img-E {
-  width: 280px;
-  height: 220px;
+  width: 320px;
+  height: 280px;
   margin-left: 10vh;
-  margin-top: 3vh;
+  margin-top: 12vh;
   border: solid 5px;
 }
 .article-img-R {
@@ -162,5 +162,8 @@
   border: solid 5px;
 }
 .title-1{
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px;
+  text-align: center;
 }
