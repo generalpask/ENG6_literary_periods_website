@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: IBM Plex Sans Regular;
 }
-body{
+.body-1{
     background-image: url(../img/souls_of_acheron.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.body-2{
+  background-image: url(../img/chemistry.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -44,11 +51,7 @@ body{
 }
 
 .title {
-    font-family: IBM Plex Sans Regular;
     margin-left: 5vw;
-}
-h1, h2, h3, h4, h5, h6 {
-    font-family: IBM Plex Sans Regular;
 }
 
 .link-div {
@@ -56,7 +59,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 10vh;
   margin-top: 40%;
   border: solid 3px;
-  background-color: grey;
   border-bottom: none;
   opacity: 0.9;
   background-image: radial-gradient(#5e5e5e, #454545);
@@ -64,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 .link-div a{
   margin-left:10px;
   margin-right:10px;
-
   color: #cec2b1;
   display: block;
   height: 100%;
@@ -78,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 2px solid;
   border-right: 2px solid;
   border-color: #6b6b6b;
+  box-sizing: border-box;
 }
 
 
@@ -119,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .article-content {
     width: 45%;
-    background-image: radial-gradient(#5e5e5e, #454545);
+    background-image: radial-gradient(#d3dbdc,#5e5e5e);
     position: relative;
     border: solid 3px;
     float: left;
@@ -131,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10vh;
     margin-top: 5vh;
 }
+<<<<<<< HEAD
 .Kevins-bild {
     margin-left: 10vh;
     margin-top: 5vh;
@@ -144,4 +147,36 @@ h1, h2, h3, h4, h5, h6 {
     width: 30vw;
     height: 60vh;
     border: solid 2px;
+=======
+.article-img-S {
+    width: 285px;
+    height: 274px;
+    margin-left: 10vh;
+    margin-top: 3vh;
+    border: solid 5px;
+}
+.article-img-E {
+  width: 280px;
+  height: 220px;
+  margin-left: 10vh;
+  margin-top: 3vh;
+  border: solid 5px;
+}
+.article-img-R {
+  width: 140px;
+  height: 115px;
+  margin-left: 8vh;
+  margin-right: 30vh;
+  border: solid 3px;
+}
+.article-img-P {
+  width: 210px;
+  height: 155px;
+  margin-left: 8vh;
+  margin-top: 1vh;
+  border: solid 5px;
+}
+.title-1{
+  margin-top: 25px;
+>>>>>>> d158c90d2926af08f0b5d47f3b4670c8a68d60bb
 }
