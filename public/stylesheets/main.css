@@ -54,10 +54,11 @@
     margin-left: 5vw;
 }
 
+
 .link-div {
   width: 100%;
   height: 10vh;
-  margin-top: 40%;
+  margin-top: 80vh;
   border: solid 3px;
   border-bottom: none;
   opacity: 0.9;
@@ -149,17 +150,17 @@
     border: solid 2px;
 =======
 .article-img-S {
-    width: 285px;
-    height: 274px;
+    width: 320px;
+    height: 294px;
     margin-left: 10vh;
-    margin-top: 3vh;
+    margin-top: 10vh;
     border: solid 5px;
 }
 .article-img-E {
-  width: 280px;
-  height: 220px;
+  width: 320px;
+  height: 280px;
   margin-left: 10vh;
-  margin-top: 3vh;
+  margin-top: 12vh;
   border: solid 5px;
 }
 .article-img-R {
@@ -177,6 +178,13 @@
   border: solid 5px;
 }
 .title-1{
+<<<<<<< HEAD
   margin-top: 25px;
 >>>>>>> d158c90d2926af08f0b5d47f3b4670c8a68d60bb
+=======
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px;
+  text-align: center;
+>>>>>>> 31a28769b496ef0b4563bb0be0f0b30eb60af8ea
 }
