@@ -3,19 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Art and music</title>
+
+        <title>Economy</title>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $.get('../public/articles/article_xxxxxx.html', function(Data) {
+                document.getElementById('article').innerHTML = Data;
+            })
+        </script>
     </head>
     <body>
         <div class="main">
             <div class="header">
-                <div class="title vertical-center">
-                    <h1>TOPIC TOPIC TOPIC TOPIC TOPIC TOPIC TOPIC TOPIC</h1>
+              <a class="back" href="../index.html"><button class="backbutton">Back</button></a>
+              <h1 class="title vertical-center">TOPIC! TOPIC!</h1>
                 </div>
                 <div class="article-content">
-                    <h1>Test!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt odio arcu, id placerat ligula sodales tincidunt. Vivamus sit amet magna ultricies, imperdiet turpis tincidunt, mattis eros. Fusce nec sagittis neque, vel finibus tortor. Cras finibus at lacus maximus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum sed porttitor nulla. Nam porta nisl vel massa blandit fringilla. Sed et blandit urna, nec efficitur felis. Proin fermentum sapien massa, a suscipit eros dapibus at.<br>
+                        <p id="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt odio arcu, id placerat ligula sodales tincidunt. Vivamus sit amet magna ultricies, imperdiet turpis tincidunt, mattis eros. Fusce nec sagittis neque, vel finibus tortor. Cras finibus at lacus maximus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum sed porttitor nulla. Nam porta nisl vel massa blandit fringilla. Sed et blandit urna, nec efficitur felis. Proin fermentum sapien massa, a suscipit eros dapibus at.<br>
                         <br>
                         Curabitur porttitor libero nulla, id varius turpis imperdiet a. Nam sit amet ultrices quam, eu finibus est. Cras viverra bibendum imperdiet. Fusce id odio est. Mauris at mi vitae tellus volutpat ullamcorper sit amet eu erat. Nullam eget arcu eget lorem accumsan venenatis eu nec leo. Mauris suscipit tellus vel cursus posuere. Morbi tristique semper ante, nec mollis neque auctor vitae. Mauris velit tortor, mollis vitae sapien et, cursus placerat dui. Nullam non mi luctus, blandit massa id, finibus dolor. Etiam quis risus a lectus vestibulum aliquet. Maecenas ac ligula id velit ornare pulvinar. Donec porttitor fringilla ipsum, ac lobortis turpis finibus at. Duis laoreet urna non nunc ullamcorper interdum. Quisque accumsan turpis mi, id iaculis ante volutpat quis.<br>
                         <br>
