@@ -5,16 +5,22 @@
     font-family: IBM Plex Sans Regular;
 }
 .body-1{
-    background-image: url(../img/souls_of_acheron.jpg);
+    background-image: url("../img/souls_of_acheron.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .body-2{
-  background-image: url(../img/chemistry.jpg);
+  background-image: url("../img/chemistry.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.body-3{
+    background-image: url("../img/the_starry_night-wallpaper-1920x1080.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @font-face {
