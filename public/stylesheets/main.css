@@ -58,7 +58,8 @@
 .backbutton {
     width: 50px;
     height: 25px;
-    background-image: radial-gradient(#CEC2B1,#6FD260)
+/*  background-image: radial-gradient(#CEC2B1,#6FD260);*/
+    background-image: linear-gradient(to right, #6FD260, #AAFF9D);
     border: solid 2px;
     color: black;
     margin: 10px 0 0 10px;
