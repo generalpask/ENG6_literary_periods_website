@@ -6,3 +6,10 @@ HTML in /views<br />
 Sources in /public
 
 Pages: https://generalpask.github.io/ENG6_literary_periods_website/
+
+Project by 17ts students:
+* Nils Korsfeldt
+* Jacob Mattsson
+* Christopher Gunnerhed
+* Boguslaw Grzegorz Grzywa
+* Kevin Wahrman
