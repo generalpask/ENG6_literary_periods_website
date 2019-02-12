@@ -184,17 +184,9 @@
     margin-top: 6vh;
     border: solid 5px;
 }
-.article-img-N {
-  width: 240px;
-  height: 210px;
-  margin-left: 1vh;
-  margin-right: 1vh;
-  margin-bottom: 10vh;
-  border: solid 3px;
-}
 .article-img-E {
-  width: 460px;
-  height: 380px;
+  width: 380px;
+  height: 320px;
   margin-left: 10vh;
   margin-top: 6vh;
   border: solid 5px;
@@ -215,7 +207,6 @@
 }
 .title-1{
   margin-top: 25px;
-  margin-top: 20px;
   margin-bottom: 10px;
   border-bottom: solid 2px;
   text-align: center;
