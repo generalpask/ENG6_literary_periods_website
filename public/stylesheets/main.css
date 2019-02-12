@@ -68,12 +68,12 @@
 }
 
 .backbutton {
-    width: 50px;
-    height: 25px;
+    width: 80px;
+    height: 45px;
     background-image: radial-gradient(#cec2b1,#a39076);
     border: solid 2px;
     color: black;
-    margin: 10px 0 0 10px;
+    margin: 20px 0 0 10px;
 }
 .back {
     position: absolute;
@@ -178,31 +178,39 @@
 }
 
 .article-img-S {
-    width: 320px;
-    height: 294px;
+    width: 360px;
+    height: 330px;
     margin-left: 10vh;
-    margin-top: 10vh;
+    margin-top: 6vh;
     border: solid 5px;
 }
+.article-img-N {
+  width: 240px;
+  height: 210px;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-bottom: 10vh;
+  border: solid 3px;
+}
 .article-img-E {
-  width: 320px;
-  height: 280px;
+  width: 460px;
+  height: 380px;
   margin-left: 10vh;
-  margin-top: 12vh;
+  margin-top: 6vh;
   border: solid 5px;
 }
 .article-img-R {
-  width: 140px;
-  height: 115px;
-  margin-left: 8vh;
-  margin-right: 30vh;
+  width: 190px;
+  height: 175px;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
   border: solid 3px;
 }
 .article-img-P {
-  width: 210px;
-  height: 155px;
+  width: 310px;
+  height: 230px;
   margin-left: 8vh;
-  margin-top: 1vh;
   border: solid 5px;
 }
 .title-1{
