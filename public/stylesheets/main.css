@@ -74,12 +74,30 @@
     border: solid 2px;
     color: black;
     margin: 20px 0 0 10px;
+    opacity: 0.9;
 }
 .back {
     position: absolute;
     left: 0;
 }
-
+.backbutton:hover {
+  opacity: 1;
+  background-image: radial-gradient(#dbcab3,#bd9e74);
+}
+.link-sur {
+  width: 90%;
+  height: 130px;
+  margin-top: 25px;
+  border-top: solid 2px;
+}
+.link-su {
+  float: left;
+  margin-left: 15px;
+  margin-right: 100%
+}
+.link-sur a:hover {
+  color: blue;
+}
 .title {
     margin-left: 100px;
 }
@@ -110,7 +128,6 @@
   border-color: #6b6b6b;
   box-sizing: border-box;
 }
-
 
 .content {
     width: 100%;
