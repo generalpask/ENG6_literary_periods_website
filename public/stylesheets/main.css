@@ -28,6 +28,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.body-5{
+  background-image: url("../img/The_Battle_of_Vimy_Ridge.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 @font-face {
     font-family: Greekhouse;
@@ -175,6 +181,9 @@
     margin-top: 5vh;
     padding: 2vh 2vw 2vh 2vw;
 }
+.article-content-kevin {
+    width: 55%!important;
+}
 .article-img {
     margin-left: 5vh;
     margin-top: 5vh;
@@ -182,15 +191,15 @@
 .Kevins-bild {
     margin-left: 10vh;
     margin-top: 5vh;
-    width: 25vw;
-    height: 45vh;
+    width: 20vw;
+    height: 35vh;
     border: solid 2px;
 }
 .Kevins-bild2 {
     margin-left: 10vh;
     margin-top: 5vh;
-    width: 25vw;
-    height: 45vh;
+    width: 20vw;
+    height: 35vh;
     border: solid 2px;
 }
 
