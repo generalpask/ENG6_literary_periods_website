@@ -81,6 +81,8 @@
     color: black;
     margin: 20px 0 0 10px;
     opacity: 0.9;
+    font-family: Greekhouse;
+    font-size: 25px;
 }
 .back {
     position: absolute;
@@ -207,14 +209,14 @@
     width: 360px;
     height: 330px;
     margin-left: 10vh;
-    margin-top: 6vh;
+    margin-top: 4vh;
     border: solid 5px;
 }
 .article-img-E {
   width: 380px;
   height: 320px;
   margin-left: 10vh;
-  margin-top: 6vh;
+  margin-top: 2vh;
   border: solid 5px;
 }
 .article-img-R {
@@ -230,6 +232,9 @@
   height: 230px;
   margin-left: 8vh;
   border: solid 5px;
+}
+#article {
+  font-size: 18px;
 }
 .title-1{
   margin-top: 25px;
