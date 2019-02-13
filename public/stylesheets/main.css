@@ -28,6 +28,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.body-5{
+  background-image: url("../img/ww1_artwork.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 @font-face {
     font-family: Greekhouse;
