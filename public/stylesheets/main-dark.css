@@ -5,7 +5,7 @@
     font-family: IBM Plex Sans Regular;
 }
 .body-1{
-    background-image: url("../img/adolf-hiremy-hirschl-ahasuerus-at-the-end-of-the-world-1888-trivium-art-history.jpg");
+    background-image: url("../img/souls_of_acheron.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -68,7 +68,7 @@
 .header {
     width: 100%;
     height: 10vh;
-    background-image: radial-gradient(#efefef, #8c8c8c);
+    background-image: radial-gradient(#5e5e5e, #454545);
     position: relative;
     border: solid 3px;
 }
@@ -100,6 +100,8 @@
 .themeswitch {
   padding: 5px;
   box-sizing: border-box;
+  background-color: #676767;
+  color: white;
 }
 
 .link-sur {
@@ -117,9 +119,11 @@
   color: blue;
 }
 .title {
-    margin-left: 100px;
+  margin-left: 100px;
 }
-
+.title h1 {
+  color: #e7dac7;
+}
 .link-div {
   width: 100%;
   height: 10vh;
@@ -127,12 +131,12 @@
   border: solid 3px;
   border-bottom: none;
   opacity: 0.9;
-  background-image: radial-gradient(#efefef, #8c8c8c);
+  background-image: radial-gradient(#5e5e5e, #454545);
 }
 .link-div a{
   margin-left:10px;
   margin-right:10px;
-  color: black;
+  color: #cec2b1;
   display: block;
   height: 100%;
   float: left;
@@ -186,7 +190,7 @@
 
 .article-content {
     width: 45%;
-    background-image: radial-gradient(#ffffff,#a7a7a7);
+    background-image: radial-gradient(#d3dbdc,#5e5e5e);
     position: relative;
     border: solid 3px;
     float: left;

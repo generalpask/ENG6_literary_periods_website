@@ -7,7 +7,7 @@
 
         <title>Art and music</title>
 
-        <link rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
+        <link id="stylesheet" rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
             $.get('../public/articles/article_art-music.html', function(Data) {
@@ -20,6 +20,10 @@
             <div class="header">
                 <a class="back" href="../index.html"><button class="backbutton">Back</button></a>
                 <h1 class="title vertical-center">Art and music during the early 20th century</h1>
+                <div class="themebuttons">
+                    <a id="daymode" class="daymode"><button class="themeswitch">Day</button></a>
+                    <a id="nightmode" class="nightmode"><button class="themeswitch">Night</button></a>
+                  </div>
             </div>
             <div class="article-content">
                 <p id="article">
@@ -38,4 +42,5 @@
             <img class="article-img" src="../public/img/art-music/guernica3.jpg" style="width: 800px;">
         </div>
     </body>
+    <script src="public/scripts/themeswitch.js"></script>
 </html>

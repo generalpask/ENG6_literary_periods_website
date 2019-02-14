@@ -7,7 +7,7 @@
         <title>Art and music</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
+        <link id="stylesheet" rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
             $.get('../public/articles/article_xxxxxx.html', function(Data) {
@@ -20,7 +20,11 @@
             <div class="header">
               <a class="back" href="../index.html"><button class="backbutton">Back</button></a>
               <h1 class="title vertical-center">TOPIC! TOPIC!</h1>
-                </div>
+              <div class="themebuttons">
+                <a id="daymode" class="daymode"><button class="themeswitch">Day</button></a>
+                <a id="nightmode" class="nightmode"><button class="themeswitch">Night</button></a>
+              </div>
+            </div>
 
             <div class="article-content">
                     <p id="article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt odio arcu, id placerat ligula sodales tincidunt. Vivamus sit amet magna ultricies, imperdiet turpis tincidunt, mattis eros. Fusce nec sagittis neque, vel finibus tortor. Cras finibus at lacus maximus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum sed porttitor nulla. Nam porta nisl vel massa blandit fringilla. Sed et blandit urna, nec efficitur felis. Proin fermentum sapien massa, a suscipit eros dapibus at.<br>
@@ -37,4 +41,5 @@
             <img class="article-img" src="https://via.placeholder.com/500x500?text=PLACEHOLDER+IMAGE">
         </div>
     </body>
+    <script src="public/scripts/themeswitch.js"></script>
 </html>
