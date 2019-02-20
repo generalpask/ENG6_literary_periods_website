@@ -67,7 +67,7 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-family: Teacher;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .main {
@@ -107,28 +107,16 @@
   float: right;
   padding: 10px 10px 0 0;
 }
+
 .daymode, .nightmode {
   width: 3vw;
 }
-.themeswitch {
+
+.themeswitch{
   padding: 5px;
   box-sizing: border-box;
 }
 
-.link-sur {
-  width: 90%;
-  height: 130px;
-  margin-top: 25px;
-  border-top: solid 2px;
-}
-.link-su {
-  float: left;
-  margin-left: 15px;
-  margin-right: 100%
-}
-.link-sur a:hover {
-  color: blue;
-}
 .title {
     margin-left: 100px;
 }
@@ -138,18 +126,16 @@
   height: 10vh;
   margin-top: 80vh;
   border: solid 3px;
-  border-bottom: none;
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
 }
 .link-div a{
-  margin-left:10px;
-  margin-right:10px;
+  width: 10%;
+  display: ;
+  margin: auto;
   padding: 10px;
   color: black;
-  display: block;
   height: 100%;
-  float: left;
   font-size: 34px;
   font-family: Campus;
 }
@@ -163,8 +149,9 @@
 }
 
 .content {
-    width: 100%;
-    height: 100vh;
+    margin-top: 10px;
+    width: 50%;
+    height: 500vh;
     position: relative;
     padding-top: 50px;
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
@@ -173,10 +160,9 @@
 
 .home-info{
   width: 90%;
-  height: 90vh;
-  border: solid 3px;
+  height: 90%;
   margin: auto;
-  text-align: center;
+  border: solid 3px;
 }
 .home-info p{
   width: 85%;
@@ -184,14 +170,20 @@
   margin-top: 2%;
 }
 
-.home-img{
-  width: 68%;
-  height: 375px;
-  border: solid 2px;
-  display: block;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+.home-img-div{
+  float: right;
+  margin-right: 5px;
+  margin-top: 10vh;
+  width: 48%;
+  height: 500vh;
+  background-color: black;
+}
+
+.img-h1{
+  float: right;
+  margin-right: 50px;
+  margin-top: 10vh;
+  margin-bottom: 5px;
 }
 
 .content, .header, .link-div {
