@@ -40,9 +40,9 @@
     font-weight: initial;
 }
 @font-face {
-  font-family: Campus;
-  src: url("../fonts/CAMPUS.ttf");
-  font-weight: initial;
+    font-family: Campus;
+    src: url("../fonts/CAMPUS.ttf");
+    font-weight: initial;
 }
 @font-face {
     font-family: Greekhouse;
@@ -66,8 +66,11 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+<<<<<<< HEAD
     font-family: Teacher;
     font-size: 20px;
+=======
+>>>>>>> a699290a310097d822c1ffe6c37a54c02fb727ce
 }
 
 .main {
@@ -103,6 +106,7 @@
   opacity: 1;
   background-image: radial-gradient(#dbcab3,#bd9e74);
 }
+<<<<<<< HEAD
 .themebuttons {
   float: right;
   padding: 10px 10px 0 0;
@@ -116,6 +120,8 @@
   padding: 5px;
   box-sizing: border-box;
 }
+=======
+>>>>>>> a699290a310097d822c1ffe6c37a54c02fb727ce
 
 .title {
     margin-left: 100px;
