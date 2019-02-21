@@ -34,7 +34,27 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+<<<<<<< HEAD
 
+=======
+.body-6{
+  background-image: url("../img/ww1_painting.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.body-7{
+  background-image: url("../img/lunch.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@font-face {
+    font-family: Teacher;
+    src: url("../fonts/TeachersStudent.ttf");
+    font-weight: initial;
+}
+>>>>>>> 0b46325acf7bbaf77de9d0c16f14245cc577a2ca
 @font-face {
     font-family: Campus;
     src: url("../fonts/CAMPUS.ttf");
