@@ -40,6 +40,12 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.body-7{
+  background-image: url("../img/lunch.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 @font-face {
     font-family: Teacher;
     src: url("../fonts/TeachersStudent.ttf");
