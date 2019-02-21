@@ -34,7 +34,16 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+@font-face {
+    font-family: Teacher;
+    src: url("../fonts/TeachersStudent.ttf");
+    font-weight: initial;
+}
+@font-face {
+    font-family: Campus;
+    src: url("../fonts/CAMPUS.ttf");
+    font-weight: initial;
+}
 @font-face {
     font-family: Greekhouse;
     src: url("../fonts/Greekhouse.ttf");
@@ -81,6 +90,8 @@
     color: black;
     margin: 20px 0 0 10px;
     opacity: 0.9;
+    font-family: Greekhouse;
+    font-size: 25px;
 }
 .back {
     position: absolute;
@@ -89,19 +100,6 @@
 .backbutton:hover {
   opacity: 1;
   background-image: radial-gradient(#dbcab3,#bd9e74);
-}
-.themebuttons {
-  float: right;
-  padding: 10px 10px 0 0;
-}
-.daymode, .nightmode {
-  width: 3vw;
-}
-.themeswitch {
-  padding: 5px;
-  box-sizing: border-box;
-  background-color: #676767;
-  color: white;
 }
 
 .link-sur {
