@@ -156,6 +156,10 @@
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
     border: solid 3px;
 }
+.home-info{
+  width: 90%;
+  height: 90%;
+}
 
 .home-info p{
   width: 85%;
