@@ -1,34 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <link id="stylesheet" rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css">
-        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Womens</title>
+
+        <link id="stylesheet" rel="stylesheet" type="text/css" media="screen" href="../public/stylesheets/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script>
-            $.get('../public/articles/article_art-music.html', function(Data) {
+            $.get('../public/articles/article_women.html', function(Data) {
                 document.getElementById('article').innerHTML = Data;
             })
         </script>
     </head>
-    <body class="body-1">
+    <body class="body-5">
         <div class="main">
             <div class="header">
-                <div class="title vertical-center">
-                    <h1>20th century Modernism</h1>
-                </div>
+                  <a class="back" href="../index.html"><button class="backbutton">Back</button></a>
+                  <h1 class="title vertical-center">Women's role during modernism</h1>
             </div>
 
-            <div class="link-div">
-                <a href="views/art-music.html"><div class="overlay"></div> Art and music</a>
-                <a href="views/tech-sci.html"><div class="overlay"></div> Technology</a>
-                <a href="views/economy.html"><div class="overlay"></div> Economy </a>
-                <a href="views/women.html"><div class="overlay"></div> The Women</a>
-                <a href="views/culture.html"><div class="overlay"></div> Culture</a>
-                <a href="views/history.html"><div class="overlay"></div> History</a>
-            </div>
-
-            <div class="super-content">
-                <div class="article-content">
+             <div class="article-content article-content-kevin">
                     <p id="article">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt odio arcu, id placerat ligula sodales tincidunt. Vivamus sit amet magna ultricies, imperdiet turpis tincidunt, mattis eros. Fusce nec sagittis neque, vel finibus tortor. Cras finibus at lacus maximus dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum sed porttitor nulla. Nam porta nisl vel massa blandit fringilla. Sed et blandit urna, nec efficitur felis. Proin fermentum sapien massa, a suscipit eros dapibus at.<br>
                         <br>
@@ -41,12 +35,11 @@
                         Mauris vitae eleifend lorem. Pellentesque ut aliquam quam. Duis non ipsum vel massa tempus pretium. Aliquam mattis orci ut neque elementum blandit. Nullam pharetra nunc eget orci egestas egestas. Donec commodo eget mi nec feugiat. Nullam vitae ornare ligula, non sodales est. Proin non purus mauris. Maecenas non sem nec felis mollis aliquet. Integer sagittis urna vel odio elementum, in mollis orci mattis. Praesent ornare diam ut risus ultrices, sed ultrices nunc venenatis. Curabitur varius viverra nisi, quis commodo metus interdum non. Suspendisse bibendum est ac nisi gravida, eget pretium nunc dapibus.
                     </p>
                 </div>
-                <div class="home-img-div">
-                    <img class="img-h1" src="../public/img/art-music/the-persistence-of-memory.jpg" style="width: 400px;">
-                    <img class="img-h1" src="../public/img/art-music/guernica3.jpg" style="width: 600px;">
-                </div>
-            </div>
+                <img class="Kevins-bild" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Photograph_of_Three_Marine_Corps_Women_Reservists%2C_Camp_Lejeune%2C_North_Carolina%2C_10-16-1943_-_NARA_-_535876.jpg" style="margin-top: 5vh!important;">
+
+
+                <img class="Kevins-bild2" src="../public/img/ww1_artwork.jpg">
         </div>
     </body>
-    <script src="public/scripts/brightness.js"></script>
+    <script src="../public/scripts/brightness.js"></script>
 </html>

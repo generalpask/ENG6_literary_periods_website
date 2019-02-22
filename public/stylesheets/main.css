@@ -6,45 +6,29 @@
 }
 .body-1{
     background-image: url("../img/adolf-hiremy-hirschl-ahasuerus-at-the-end-of-the-world-1888-trivium-art-history.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .body-2{
-  background-image: url("../img/chemistry.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+    background-image: url("../img/chemistry.jpg");
 }
 .body-3{
     background-image: url("../img/the_starry_night-wallpaper-1920x1080.jpg");
+}
+.body-4{
+    background-image: url("../img/city.jpg");
+}
+.body-5{
+    background-image: url("../img/ww1_artwork1.jpg");
+}
+.body-6{
+    background-image: url("../img/ww1_painting.jpg");
+}
+.body-7{
+    background-image: url("../img/lunch.jpg");
+}
+.body-1, .body-2, .body-3, .body-4, .body-5, .body-6, .body-7 {
     background-size: 100vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.body-4{
-  background-image: url("../img/city.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.body-5{
-  background-image: url("../img/ww1_artwork1.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.body-6{
-  background-image: url("../img/ww1_painting.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.body-7{
-  background-image: url("../img/lunch.jpg");
-  background-size: 100vw;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 @font-face {
     font-family: Teacher;
@@ -82,7 +66,7 @@
 
 .main {
     width: 100%;
-    height: 310vh;
+    height: 100vh;
 }
 
 .header {
@@ -132,7 +116,7 @@
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
   float: left;
-  position: sticky;
+  position: fixed;
   left: 0;
 }
 
@@ -156,6 +140,7 @@
     width: 100%;
     height: 6%;
     margin-left: -10px;
+    margin-top: 5px;
     position: absolute;
     background-color: #000;
     opacity: 0;
@@ -169,8 +154,8 @@
 
 .super-content {
     width: 85%;
-    height: 310vh;
-    float: left;
+    height: auto;
+    float: right;
 }
 
 .content {
@@ -193,16 +178,16 @@
     width: 85%;
 }
 
-.home-img-div{
+.img-div {
     float: left;
-    width: 35%;
-    height: 295vh;
+    width: auto;
+    height: auto;
     background-image: linear-gradient(#3e3e3e,#000000);
     border: solid 6px;
     border-color: #282749;
     margin-left: 20px;
     margin-top: 20px;
-    padding: 4vh 0 4vh 4vh;
+    padding: 4vh;
 }
 
 .img-h1{
