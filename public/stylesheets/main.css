@@ -274,6 +274,10 @@
 #article {
   font-size: 18px;
 }
+#article-2{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
 .title-1{
   margin-top: 25px;
   margin-bottom: 10px;
