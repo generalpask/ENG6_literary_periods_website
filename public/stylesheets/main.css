@@ -124,7 +124,7 @@
   width: 15%;
   height: 120%;
   padding-top: 10px;
-  border: solid 5px;
+  padding-left: 10px;
   border-top: none;
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
@@ -135,16 +135,18 @@
   width: 100%;
   display: block;
   color: black;
-  height: 12%;
+  height: 6%;
   font-size: 37px;
   font-family: Campus;
-  border: solid 3px;
   border-right: non
 }
 .link-div a:hover{
   background-color: #272727;
   color: #e7dac7;
   border: solid 3px;
+}
+.link-div a:hover > .overlay {
+    
 }
 
 .super-content{
