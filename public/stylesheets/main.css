@@ -158,7 +158,7 @@
     border: solid 6px;
     border-color: #282749;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 1vh;
     margin-bottom: 20px;
     padding: 4vh;
 }
@@ -175,13 +175,13 @@
 }
 
 .article-content {
-    width: 45%;
+    width: 35%;
     background-image: radial-gradient(#ffffff,#a7a7a7);
     position: relative;
-    border: solid 3px;
+    border: solid 5px;
     float: left;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 18vh;
     margin-bottom: 20px;
     padding: 1.5vw;
 }
