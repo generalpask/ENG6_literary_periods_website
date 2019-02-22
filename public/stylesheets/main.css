@@ -139,14 +139,12 @@
   font-size: 37px;
   font-family: Campus;
   border: solid 3px;
-  border-right: none;
+  border-right: non
 }
 .link-div a:hover{
   background-color: #272727;
   color: #e7dac7;
   border: solid 3px;
-  border-right: none;
-
 }
 
 .super-content{
