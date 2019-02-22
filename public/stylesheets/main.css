@@ -34,6 +34,18 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.body-6{
+  background-image: url("../img/ww1_painting.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.body-7{
+  background-image: url("../img/lunch.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 @font-face {
     font-family: Teacher;
     src: url("../fonts/TeachersStudent.ttf");
@@ -71,7 +83,6 @@
 .main {
     width: 100%;
     height: 100vh;
-
 }
 
 .header {
@@ -80,7 +91,7 @@
     background-image: radial-gradient(#efefef, #8c8c8c);
     position: relative;
     border: solid 3px;
-}
+  }
 
 .backbutton {
     width: 80px;
@@ -110,39 +121,49 @@
 }
 
 .link-div {
-  width: 100%;
-  height: 10vh;
-  margin-top: 82.5vh;
+  width: 15%;
+  height: 120%;
   padding-top: 10px;
-  border: solid 3px;
+  border: solid 5px;
+  border-top: none;
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
+  position: sticky;
+  top: 0;
 }
 .link-div a{
-  width: 10%;
-  margin: 20px;
+  width: 100%;
+  display: block;
   color: black;
-  height: 100%;
-  font-size: 34px;
+  height: 12%;
+  font-size: 37px;
   font-family: Campus;
+  border: solid 3px;
+  border-right: non
 }
 .link-div a:hover{
   background-color: #272727;
   color: #e7dac7;
-  border-left: 2px solid;
-  border-right: 2px solid;
-  border-color: #6b6b6b;
-  box-sizing: border-box;
+  border: solid 3px;
+}
+
+.super-content{
+  width: 100%;
+  height: 350%;
+  margin-top: ;
+  background: black;
 }
 
 .content {
     margin-top: 10px;
-    width: 50%;
-    height: 380vh;
+    margin-left: 17%;
+    width: 45%;
+    height: auto;
     position: relative;
     padding-top: 50px;
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
-    border: solid 3px;
+    border: solid 6px;
+    border-color: #282749;
 }
 .home-info{
   width: 90%;
@@ -157,20 +178,22 @@
 
 .home-img-div{
   float: right;
-  margin-right: 5px;
-  margin-top: 10vh;
-  width: 48%;
-  height: 500vh;
-
+  margin-right: 1.5vw;
+  width: 35%;
+  height: 320vh;
+  background-image: linear-gradient(#3e3e3e,#000000);
+  border: solid 6px;
+  border-color: #282749;
 }
 
 .img-h1{
   float: right;
   margin-left: 10px;
-  margin-right: 50px;
-  margin-top: 5vh;
+  margin-right: 10vw;
+  margin-top: 4vh;
   margin-bottom: 5px;
-  border: solid 3px;
+  border: solid 4px;
+  border-color: #bbc2c3;
 }
 
 .content, .header, .link-div {
@@ -187,6 +210,15 @@
     margin-top: 5vh;
     padding: 2vh 2vw 2vh 2vw;
 }
+.article-content-2 {
+  margin-left: 5vh;
+  width: 90%;
+  height: auto;
+  margin-top: 15vh;
+  background-image: linear-gradient(#a7a7a7,#ffffff);
+  border: solid 3px;
+}
+
 .article-content-kevin {
     width: 55%!important;
 }
@@ -208,19 +240,22 @@
     height: 40vh;
     border: solid 2px;
 }
-
 .article-img-S {
     width: 360px;
     height: 330px;
     margin-left: 10vh;
-    margin-top: 4vh;
+    margin-top: 6vh;
     border: solid 5px;
 }
 .article-img-E {
   width: 380px;
   height: 320px;
-  margin-left: 10vh;
-  margin-top: 2vh;
+  margin-left: 30vh;
+  margin-top: 5vh;
+  border: solid 5px;
+}
+.article-img-E-1{
+  margin-left: 10vw;
   border: solid 5px;
 }
 .article-img-R {
@@ -239,6 +274,10 @@
 }
 #article {
   font-size: 18px;
+}
+#article-2{
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 .title-1{
   margin-top: 25px;
