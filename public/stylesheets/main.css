@@ -70,7 +70,7 @@
 }
 
 .title {
-    margin-left: 100px;
+    margin-left: 75px;
     font-size: 40px;
 }
 
@@ -133,15 +133,6 @@
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
     border: solid 6px;
     border-color: #282749;
-}
-
-.home-info{
-    width: 90%;
-    height: auto;
-}
-
-.home-info p{
-    width: 85%;
 }
 
 .img-div {
