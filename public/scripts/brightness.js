@@ -1,7 +1,7 @@
 (function() {
 
     //var current_hour = new Date().getHours();
-    var current_hour = 18;
+    var current_hour = 6;
     
     if (0 <= current_hour&&current_hour < 5) { // Night
         $(".body-1").css("background-image", 'url("public/img/souls_of_acheron.jpg")');
