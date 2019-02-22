@@ -130,8 +130,10 @@
   border-top: none;
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
+  float: left;
   position: sticky;
   left: 0;
+  z-index: -1;
 }
 .link-div a{
   width: 100%;
@@ -165,51 +167,49 @@
 }
 
 .super-content {
-  width: 100%;
-  height: 350%;
-  background: black;
+    width: 85%;
+    height: 310vh;
+    float: left;
+    z-index: -1;
 }
 
 .content {
     margin-top: 10px;
-    margin-left: 17%;
+    margin-left: 16%;
     width: 45%;
     height: auto;
     position: relative;
-    padding-top: 50px;
+    padding: 25px;
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
     border: solid 6px;
     border-color: #282749;
 }
 .home-info{
-  width: 90%;
-  height: 90%;
+    width: 90%;
+    height: auto;
 }
 
 .home-info p{
-  width: 85%;
-  margin: auto;
-  margin-top: 2%;
+    width: 85%;
 }
 
 .home-img-div{
-  float: right;
-  margin-right: 1.5vw;
-  width: 35%;
-  height: 320vh;
-  background-image: linear-gradient(#3e3e3e,#000000);
-  border: solid 6px;
-  border-color: #282749;
+    float: left;
+    width: 35%;
+    height: 295vh;
+    background-image: linear-gradient(#3e3e3e,#000000);
+    border: solid 6px;
+    border-color: #282749;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 4vh 0 4vh 4vh;
 }
 
 .img-h1{
-  float: right;
-  margin-left: 10px;
-  margin-right: 10vw;
-  margin-top: 4vh;
-  margin-bottom: 5px;
-  border: solid 4px;
-  border-color: #bbc2c3;
+    float: left;
+    border: solid 4px;
+    border-color: #bbc2c3;
+    margin-bottom: 3vh;
 }
 
 .content, .header, .link-div {
@@ -222,17 +222,18 @@
     position: relative;
     border: solid 3px;
     float: left;
-    margin-left: 5vh;
-    margin-top: 5vh;
+    margin-left: 20px;
+    margin-top: 20px;
     padding: 2vh 2vw 2vh 2vw;
+    z-index: -1;
 }
 .article-content-2 {
-  margin-left: 5vh;
-  width: 90%;
-  height: auto;
-  margin-top: 15vh;
-  background-image: linear-gradient(#a7a7a7,#ffffff);
-  border: solid 3px;
+    margin-left: 5vh;
+    width: 90%;
+    height: auto;
+    margin-top: 15vh;
+    background-image: linear-gradient(#a7a7a7,#ffffff);
+    border: solid 3px;
 }
 
 .article-content-kevin {
