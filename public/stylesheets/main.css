@@ -31,21 +31,6 @@
     background-attachment: fixed;
 }
 @font-face {
-    font-family: Teacher;
-    src: url("../fonts/TeachersStudent.ttf");
-    font-weight: initial;
-}
-@font-face {
-    font-family: Campus;
-    src: url("../fonts/CAMPUS.ttf");
-    font-weight: initial;
-}
-@font-face {
-    font-family: Greekhouse;
-    src: url("../fonts/Greekhouse.ttf");
-    font-weight: initial;
-}
-@font-face {
     font-family: IBM Plex Sans Regular;
     src: url("../fonts/IBMPlexSans-Regular.ttf");
     font-weight: initial;
@@ -55,6 +40,16 @@
     src: url("../fonts/IBMPlexSans-Bold.ttf");
     font-weight: initial;
 }
+@font-face {
+    font-family: Campus;
+    src: url("../fonts/CAMPUS.ttf");
+    font-weight: initial;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+}
 
 .vertical-center {
     margin: 0;
@@ -62,11 +57,6 @@
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-.main {
-    width: 100%;
-    height: auto;
 }
 
 .header {
@@ -79,30 +69,8 @@
     z-index: 2;
 }
 
-.backbutton {
-    width: 80px;
-    height: 45px;
-    background-image: radial-gradient(#cec2b1,#a39076);
-    border: solid 2px;
-    color: black;
-    margin: 20px 0 0 10px;
-    opacity: 0.9;
-    font-family: Greekhouse;
-    font-size: 25px;
-}
-.back {
-    position: absolute;
-    left: 0;
-}
-.backbutton:hover {
-  opacity: 1;
-  background-image: radial-gradient(#dbcab3,#bd9e74);
-}
-
 .title {
     margin-left: 100px;
-}
-.title h1 {
     font-size: 40px;
 }
 
@@ -282,10 +250,7 @@
 #article {
   font-size: 18px;
 }
-#article-2{
-  margin-left: 3vw;
-  margin-right: 3vw;
-}
+
 .title-1{
   margin-top: 25px;
   margin-bottom: 10px;
