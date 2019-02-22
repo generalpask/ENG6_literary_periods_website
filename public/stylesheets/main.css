@@ -34,9 +34,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-<<<<<<< HEAD
-
-=======
 .body-6{
   background-image: url("../img/ww1_painting.jpg");
   background-size: 100vw;
@@ -54,7 +51,6 @@
     src: url("../fonts/TeachersStudent.ttf");
     font-weight: initial;
 }
->>>>>>> 0b46325acf7bbaf77de9d0c16f14245cc577a2ca
 @font-face {
     font-family: Campus;
     src: url("../fonts/CAMPUS.ttf");
@@ -87,7 +83,6 @@
 .main {
     width: 100%;
     height: 100vh;
-
 }
 
 .header {
@@ -96,6 +91,7 @@
     background-image: radial-gradient(#efefef, #8c8c8c);
     position: relative;
     border: solid 3px;
+    border-bottom-color: #030058;
 }
 
 .backbutton {
@@ -128,11 +124,12 @@
 .link-div {
   width: 100%;
   height: 10vh;
-  margin-top: 80vh;
+  margin-bottom: 80vh;
   padding-top: 10px;
   border: solid 3px;
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
+  border-top-color: #030058;
 }
 .link-div a{
   width: 10%;
@@ -151,15 +148,23 @@
   box-sizing: border-box;
 }
 
+.super-content{
+  width: 100%;
+  height: 390%;
+  margin-top: ;
+  background:black;
+}
+
 .content {
     margin-top: 10px;
-    margin-left: 5px;
-    width: 50%;
+    margin-left: 75px;
+    width: 55%;
     height: 380vh;
     position: relative;
     padding-top: 50px;
     background-image: linear-gradient(#bbc2c3,#d3dbdc);
-    border: solid 3px;
+    border: solid 6px;
+    border-color: #282749;
 }
 .home-info{
   width: 90%;
@@ -174,10 +179,12 @@
 
 .home-img-div{
   float: right;
-  margin-right: 5px;
-  margin-top: 10vh;
-  width: 48%;
-  height: 500vh;
+  margin-right: 10px;
+  width: 35%;
+  height: 380vh;
+  background-image: linear-gradient(#3e3e3e,#000000);
+  border: solid 6px;
+  border-color: #282749;
 
 }
 
@@ -187,7 +194,8 @@
   margin-right: 10vw;
   margin-top: 4vh;
   margin-bottom: 5px;
-  border: solid 3px;
+  border: solid 4px;
+  border-color: #bbc2c3;
 }
 
 .content, .header, .link-div {
