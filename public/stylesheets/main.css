@@ -132,7 +132,7 @@
   opacity: 0.9;
   background-image: radial-gradient(#efefef, #8c8c8c);
   float: left;
-  position: sticky;
+  position: fixed;
   left: 0;
 }
 
@@ -170,7 +170,8 @@
 .super-content {
     width: 85%;
     height: 310vh;
-    float: left;
+    float: right;
+
 }
 
 .content {
