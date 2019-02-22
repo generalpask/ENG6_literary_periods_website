@@ -191,6 +191,7 @@
     border-color: #282749;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 4vh;
 }
 
@@ -213,6 +214,7 @@
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 1.5vw;
 }
 .article-content-2 {
