@@ -87,7 +87,7 @@
     position: fixed;
     left: 0;
     text-align: center;
-}
+  }
 
 .link-div a {
     margin-left: -10px;
@@ -96,7 +96,7 @@
     color: black;
     height: 10%;
     font-size: 36px;
-    font-family: Campus;
+    font: 10;
     border-right: none;
 }
 
@@ -138,6 +138,23 @@
     padding: 1.5vw;
 }
 
+.article-content-art {
+    width: 45%;
+    background-image: white;
+    position: relative;
+    border: solid 5px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1.5vw;
+}
+.tech{  background-image: radial-gradient(#B1BDA3,#285421)!important;}
+.women{ background-image: radial-gradient(#FFF6EC,#EF6D8D)!important;}
+.hist{ background-image: radial-gradient(#B27E79,#8C413F)!important;}
+.eco{ background-image: radial-gradient(#A49BAB,#706585)!important;}
+.cul{ background-image: radial-gradient(#85dcba,#41b4a4)!important;}
+
 #article {
     font-size: 18px;
 }
@@ -154,6 +171,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 4vh;
+}
+.art{
+  background-image: radial-gradient(#E5CDDD,#BA84C4)!important
 }
 
 .img-h1{
